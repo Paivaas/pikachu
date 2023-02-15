@@ -1,0 +1,25 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid; 
+    grid-template-rows: 100px 1fr 20px;
+    padding: 70px 70px 70px 24px;
+    background-color:  #f5cf06
+}
+
+header{
+background-color: yellowgreen;
+}
+
+main{
+    background-color: teal;
+}
+footer{
+    background-color: turquoise;
+}
