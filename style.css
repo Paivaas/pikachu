@@ -9,14 +9,21 @@ body{
     height: 100vh;
     display: grid; 
     grid-template-rows: 100px 1fr 20px;
-    padding: 70px 70px 70px 24px;
-    background-color:  #f5cf06
+    padding: 70px 70px 24px 70px;
+    background-color:  #f5cf06;
+    color: #8E4106;
+    font-family: 'Righteous', cursive;
 }
 
-header{
-background-color: yellowgreen;
+.logo{
+    display:flex;
+    align-items: center;
+    gap: 24px;
 }
-
+.logo__text{
+    font-size: 32px
+    font-weight: 100;
+}
 main{
     background-color: teal;
 }
